@@ -73,20 +73,21 @@ export default function Home() {
     <h1 className="text-7xl font-bold italic">Our Special Offer</h1>
     <br></br>
     <br></br>
-    <p className="font-amsterlands  text-zinc-500 text-2xl">Best cooks and  best delivery guys all at your <br></br>service.Hot tasty food will reach you in 60 minutes</p>
+    <p className="text-zinc-500 text-2xl">Best cooks and  best delivery guys all at your <br></br>service.Hot tasty food will reach you in 60 minutes</p>
     <br></br>
-    <button className="text-center text-2xl m-4 flex rounded-2xl p-1.5 text-slate-100 bg-amber-500">See All Menu <img src="/media/arrow.png" className="size-12 p-2 mt-0.5"></img></button>
+    <button className="flex items-center justify-center text-2xl m-4 p-3.5 rounded-2xl text-slate-100 bg-amber-500 hover:bg-amber-600 transition duration-300">See All Menu <img src="/media/arrow.png" className="w-6 h-6 ml-2"  alt="Arrow icon" /></button>
   </div>
+  
   <div>
     <img src="/media/salad.png" alt="salad" className="size-96"/>
   </div>
 </div>
 </div>
 <div className="text-center mb-36">
-        <p className="font-amsterlands text-2xl">Quality Food&#129295;</p>
+        <p className="text-2xl">Quality Food&#129295;</p>
         <h1 className="text-center text-6xl font-medium">Get The Best Offers</h1>
         <br></br>
-        <p className="font-amsterlands text-[20px]  text-zinc-500">The food at your doorstep.Why starve when you have us.You hunger <br/>partner.Straight out of the oven to your doorstep.</p>
+        <p className="text-[20px]  text-zinc-500">The food at your doorstep.Why starve when you have us.You hunger <br/>partner.Straight out of the oven to your doorstep.</p>
       </div>
       <div className="flex  gap-20 mt-32 ml-64">
         <div className="flex">
@@ -182,7 +183,7 @@ export default function Home() {
       </div>
       <div className="flex ml-[200px] gap-[50px]">
 <div>
-<h1 className="text-[45px] font-bold mt-[100px]">Subscribe Our Newsletter</h1>
+<h1 className="text-[45px]  mt-[100px]">Subscribe Our Newsletter</h1>
 <p className="mt-[20px] font-medium text-[20px] text-zinc-500">Subscribe on our newsletter to get our</p>
 <p className="font-medium text-[20px] text-zinc-500">news</p>
 </div>
@@ -238,6 +239,9 @@ export default function Home() {
   <h6>Security</h6>
 </div>
 </div>   
+<div>
+
+</div>
 </main>
   );
 }
